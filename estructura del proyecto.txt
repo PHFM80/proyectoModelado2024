@@ -1,0 +1,32 @@
+.mvn 
+.settings 
+src 
+    src/main 
+        src/main/java 
+            src/main/java/com
+                src/main/java/com/cooweb 
+                src/main/java/com/cooweb/ProyectoMDS_vers2 
+                src/main/java/com/cooweb/ProyectoMDS_vers2/controllers 
+                    src/main/java/com/cooweb/ProyectoMDS_vers2/controllers/UsuarioController.java 
+                src/main/java/com/cooweb/ProyectoMDS_vers2/dao_repository 
+                    src/main/java/com/cooweb/ProyectoMDS_vers2/dao_repository/UsuarioDao.java 
+                    src/main/java/com/cooweb/ProyectoMDS_vers2/dao_repository/UsuarioDaoImp.java 
+                src/main/java/com/cooweb/ProyectoMDS_vers2/models 
+                    src/main/java/com/cooweb/ProyectoMDS_vers2/models/Usuario.java 
+                src/main/java/com/cooweb/ProyectoMDS_vers2/ProyectoMdsVers2Application.java 
+                src/main/java/com/cooweb/ProyectoMDS_vers2/ServletInitializer.java
+        src/main/resources 
+            src/main/resources/static 
+            src/main/resources/templates 
+            src/main/resources/application.properties 
+        src/main/webapp 
+    src/test 
+target 
+.classpath 
+.gitignore 
+.project 
+HELP.md 
+mvnw 
+mvnw.cmd 
+pom.xml 
+query para cargar usuarios vers2.sql

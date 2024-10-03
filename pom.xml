@@ -11,9 +11,9 @@
 	<groupId>com.cooweb</groupId>
 	<artifactId>ProyectoMDS_vers2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging> <!-- Cambiado a jar -->
 	<name>ProyectoMDS_vers2</name>
-	<description>primer proyecto de modelado de sofware</description>
+	<description>primer proyecto de modelado de software</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -23,32 +23,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <version>8.0.33</version>
-		</dependency>
-
-		
 	</dependencies>
 
 	<build>
@@ -59,5 +47,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
